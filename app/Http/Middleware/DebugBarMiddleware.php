@@ -24,6 +24,7 @@ class DebugBarMiddleware
         }else{
             \Debugbar::disable();
         }
+        \Debugbar::enable();
         return $next($request);
     }
 }
