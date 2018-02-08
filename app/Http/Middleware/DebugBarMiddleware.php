@@ -15,7 +15,7 @@ class DebugBarMiddleware
      */
     public function handle($request, Closure $next)
     {
-        $admin_id   = 5;
+        $admin_id   = 1;
         $creator_id = 16;
         $client_id  = 14;
 
