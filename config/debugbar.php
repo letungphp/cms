@@ -12,7 +12,7 @@ return [
      |
      */
 
-    'enabled' => true,//env('DEBUGBAR_ENABLED', null),
+    'enabled' => getStatusDebug(),//env('DEBUGBAR_ENABLED', null),
 
     /*
      |--------------------------------------------------------------------------
